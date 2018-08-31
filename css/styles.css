@@ -1,0 +1,19 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 2px;
+	padding: 3px;
+}
+
+#header {
+	background: url("../images/background-header.jpg");
+	color: lightblue;
+	padding-top: 20px;
+}
+
+#header a {
+	color: #ffffff;
+}
