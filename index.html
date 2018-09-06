@@ -4,18 +4,22 @@
   <meta charset="UTF-8">
   <title>Inicio</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/grid.css">
 </head>
-<body style="background: #BCB">
+<body style="background: #ffffff">
   <header id="header">
     <div class="container">
       <div class="row">
-        <div class="col col-desktop-3"><img src="images/clock.png" alt="logo"></div>
+        <div class="col col-desktop-3">
+          <a href="index.html">
+            <img src="images/logo.png" alt="logo">
+          </a>
+        </div>
         <div class="col col-desktop-9">
           <nav>
             <ul>
-              <li><a href="index.html">Inicio</a></li>
+              <li><a href="index.html" class="active">Inicio</a></li>
               <li><a href="quemsomos.html">Quem somos</a></li>
               <li><a href="clientes.html">Clientes</a></li>
               <li><a href="equipe.html">Equipe</a></li>
@@ -27,20 +31,50 @@
       <div class="row">
         <div class="col col-desktop-12 title">
           <h1 style="font-size: 60px">Alta produtividade em tempo real</h1>
-          <!--<h2>Alta produtividade em tempo real</h2>
-          <h3>Alta produtividade em tempo real</h3>
-          <h4>Alta produtividade em tempo real</h4>
-          <h5>Alta produtividade em tempo real</h5>
-          <h1>Alta produtividade em tempo real</h1> -->
-          <a href="">Começar agora!</a>
+          <a href="" id="btnStart" class="active">Começar agora!</a>
         </div>
       </div>
     </div>
   </header>
   <main>
-    <section id="how-it-work" style="font-size: 20px">Teste como funciona</section>
-    <section id="customer" style="font-size: 20px">Clientes</section>
-    <section id="team" style="font-size: 20px">Time</section>
+    <section id="how-it-work" style="font-size: 20px">
+      <h2>Como Funciona</h2>
+      <p class="subtitle">Lorem ipsum dolor sit amet. Proin nibh vel valit auctor blyska trrapec</p>
+      <div class="container">
+        <div class="row">
+          <div class="col col-desktop-4">
+            <div class="icon-container">
+              <i class="material-icons">schedule</i>
+            </div>
+            <h3>Chat em tempo real</h3>
+            <p>Aenean sollicitudio, lorem quis bibenum. Lorem ipsun. Proin</p>
+            <p><a href="" class="btn">Saiba mais</a></p>
+          </div>
+          <div class="col col-desktop-4">
+            <div class="icon-container">
+              <i class="material-icons">work</i>
+            </div>
+            <h3>Grupo de trabalho</h3>
+            <p>Aenean sollicitudio, lorem quis bibenum. Lorem ipsun. Proin Aslka ich</p>
+            <p><a href="" class="btn">Saiba mais</a></p>
+          </div>
+          <div class="col col-desktop-4">
+            <div class="icon-container">
+              <i class="material-icons">https</i>
+            </div>
+            <h3>Chat em tempo real</h3>
+            <p>Aenean sollicitudio, lorem quis bibenum. Lorem ipsun. Proin</p>
+            <p><a href="" class="btn">Saiba mais</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="customer" style="font-size: 20px">
+      <h2>Clientes</h2>
+    </section>
+    <section id="team" style="font-size: 20px">
+      <h2>Time</h2>
+   </section>
   </main>
   <footer id="footer">Rodapé</footer>
 </body>
