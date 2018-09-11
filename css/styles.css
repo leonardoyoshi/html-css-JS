@@ -3,6 +3,7 @@
 @import url('buttons.css');
 @import url('icons.css');
 @import url('typography.css');
+@import url('menu.css');
 
 * {
 	box-sizing: border-box;
@@ -134,6 +135,56 @@ Com essas caracteristicas, independente do tamanho da janela, ele irá centraliz
 }
 
 #footer {
-	background-color: black;
-	
+	background-color: rgb(50,50,50);
+	text-align: left;
+}
+
+#footer, #footer a {
+	color: rgb(204, 204, 204);
+}
+
+#footer h3, #footer nav {
+	text-transform: uppercase;
+}
+
+#footer h3:after {
+	content: '';
+	display: block;
+	border-bottom: 2px solid rgb(204,204, 204);
+	width: 30px;
+}
+
+#footer nav li {
+	padding: 3px 0;
+}
+
+#footer nav li a:hover {
+	color: rgb(255, 255, 255);
+}
+
+#footer .social {
+	height: 200px;
+	line-height: 200px;
+	text-align: right;
+}
+
+#footer .social a {
+	display: inline-block;
+	padding: 0 0 0 10px;
+	opacity: 1;
+	transition: ease .5s all;
+}
+
+#footer .social a:hover {
+	opacity: 0.3;
+}
+
+#footer .social img {
+	vertical-align: middle;
+	padding: 0 0 0 10px;
+}
+
+#copyright {
+	text-align: center;
+	background-color: rgb(34, 34, 34)
 }
