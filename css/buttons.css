@@ -1,14 +1,15 @@
 .btn {
-	background-color: rgb(84,209,84);
+	background-color: rgb(84,229,84);
 	color: #ffffff;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 15px;
 	border-radius: 30px;
 	padding: 10px 30px;
 	text-decoration: none;
 	transition: ease .5s all;
 }
 
-.btn hover {
-	background-color: rgb(84,180,84);
+.btn:hover {
+	background-color: rgb(230,230,230);
+	color: rgb(84,229,84);
 }

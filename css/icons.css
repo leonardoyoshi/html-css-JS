@@ -5,9 +5,10 @@
 	background: #e1f3e1;
 	border-radius: 30px;
 	position: relative;
+	padding-left: 20px;
 }
 
-.material-icons {
+.icon-container .material-icons {
 	display: block;
 	font-size: 80px;
 	color: rgb(84,209,84);
@@ -15,4 +16,18 @@
 	top: -10%;
 	left: 50%;
 	transform: translate(-50%, 50%);
+}
+
+.img-box-round {
+	display: inline-block;
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.img-box-label:before {
+	content: '';
+	display: block;
+	width: 50%;
+	height: 60px;
+	border: 2px solid rgb(32, 123, 32);
 }

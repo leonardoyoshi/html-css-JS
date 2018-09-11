@@ -13,6 +13,7 @@ body {
 	margin: 1px;
 	padding: 2px;
 	color: rgb(120, 120, 120);
+	font-size: 18px;
 }
 
 a {
@@ -42,7 +43,14 @@ a {
 }
 
 #header a:hover, #header a.active {
-	background-color: rgba(85,219,84, 0.5);
+	background-color: rgba(80,219,80, 0.78);
+	vertical-align: middle;
+	padding: 10px 20px 10px 20px; 
+}
+
+#header a.active:hover {
+	background-color: rgb(235, 235, 235);
+	color: rgb(5,250,4);
 }
 
 #header h1 {
@@ -82,7 +90,50 @@ Com essas caracteristicas, independente do tamanho da janela, ele irá centraliz
 	text-align: center;
 }
 
-#how-it-work {
+#team, #customer, #how-it-work {
 	text-align: center;
 	padding: 30px 0 30px 0;
+}
+
+#customer {
+	background-color: rgb(242, 242, 242);
+}
+
+#customer .btn {
+	margin-top: 80px;
+	background-color: rgb(35, 295, 95);
+	color: rgb(250,250,250);
+}
+
+#customer .btn:hover {
+	background-color: rgb(225,225,225);
+	color: rgb(0, 255, 0);
+}
+
+#customer .btn .material-icons {
+	vertical-align: middle;
+	font-size: 18px;
+}
+
+#customer .container {
+	max-width: 1100px;
+}
+
+#team {
+	background-color: rgb(83, 210, 83);
+	color: rgb(255,255,255);
+}
+
+#team h2:after {
+	background-color: rgb(255,255,255);
+}
+
+#team .img-box-round {
+	width: 120px;
+	height: 120px;
+}
+
+#footer {
+	background-color: black;
+	
 }
