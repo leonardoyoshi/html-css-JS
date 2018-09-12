@@ -1,0 +1,25 @@
+@import url('../styles.css');
+
+#header.page-quemsomos {
+    background-image: url("../../images/background-quem-somos.jpg");
+}
+
+#intro h2, #values h2 {
+	font-size: 20px;
+}
+
+#intro h2 { 
+	text-align: left;
+}
+
+#intro h2:after { 
+	margin: 5px 0 0 0;
+}
+
+#values {
+	background-color: #f3f0e7;
+}
+
+#values h2 {
+	margin-top: 20px;
+}

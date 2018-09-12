@@ -15,13 +15,7 @@ body {
 	padding: 2px;
 	color: rgb(120, 120, 120);
 	font-size: 18px;
-}
-
-a {
-	display: inline-block;
-	text-decoration: none;
-	padding: 10px;
-	border-radius: 5px;
+	line-height: 25px;
 }
 
 #header .btn {
@@ -59,7 +53,7 @@ a {
 }
 
 #header {
-	background: #000 no-repeat;
+	background: #000 no-repeat fixed;
 	background-size: cover;
 	color: #ffffff;
 	width: 100%;
