@@ -59,7 +59,7 @@ a {
 }
 
 #header {
-	background: #000 url("../images/background-header.jpg") no-repeat;
+	background: #000 no-repeat;
 	background-size: cover;
 	color: #ffffff;
 	width: 100%;
@@ -91,9 +91,12 @@ Com essas caracteristicas, independente do tamanho da janela, ele irá centraliz
 	text-align: center;
 }
 
-#team, #customer, #how-it-work {
-	text-align: center;
+.section {
 	padding: 30px 0 30px 0;
+}
+
+.section-center {
+	text-align: center;
 }
 
 #customer {
