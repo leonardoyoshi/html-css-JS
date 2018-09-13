@@ -144,13 +144,6 @@ Com essas caracteristicas, independente do tamanho da janela, ele irá centraliz
 	text-transform: uppercase;
 }
 
-#footer h3:after {
-	content: '';
-	display: block;
-	border-bottom: 2px solid rgb(204,204, 204);
-	width: 30px;
-}
-
 #footer nav li {
 	padding: 3px 0;
 }

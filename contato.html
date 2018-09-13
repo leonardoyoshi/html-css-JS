@@ -1,10 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <title>Contato</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="css/pages/contato.css">
 </head>
-<body>
-  <a href="index.html">Voltar</a>
+<body style="background: #ffffff">
+  <header id="header" class="page-contato">
+    <div class="container">
+      <div class="row">
+        <div class="col col-desktop-3">
+          <a href="index.html">
+            <img src="images/logo.png" alt="logo">
+          </a>
+        </div>
+        <div class="col col-desktop-9">
+          <nav>
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="quemsomos.html">Quem somos</a></li>
+              <li><a href="clientes.html">Clientes</a></li>
+              <li><a href="equipe.html">Equipe</a></li>
+              <li><a href="contato.html" class="active">Contato</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-desktop-12 title">
+          <h1 style="font-size: 60px">Alta produtividade em tempo real</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="section section-center">
+      <h2>Contato</h2>
+      <p class="subtitle">
+        Lorem ipsum dolor sit amet. Proin mihn vel velit auctor aliquet, ipsum dolor.<br />
+        Ipsum has been the industry's standard dummy text ever since the 1500s.
+      </p>
+
+      <div class="container">
+        <form class="row">
+          <div class="col col-desktop-6"> 
+            <div class="input-control">
+              <label for="nome">Nome*</label>
+              <input id="nome" name="nome" type="text" required placeholder="Nome...">
+            </div>
+            <div class="input-control">
+              <label for="email">Email*</label>
+              <input id="email" name="email" type="email" required placeholder="Email...">
+            </div>
+            <div class="input-control">
+              <label for="telefone">Telefone*</label>
+              <input id="telefone" name="telefone" type="number" required placeholder="Telefone....">
+            </div>
+          </div>
+          <div class="col col-desktop-6">
+            <textarea aria-invalid="mensagem" name="mensagem" id="" cols="30" rows="10" placeholder="Mensagem..."></textarea>
+            <label for="mensagem"></label>
+          </div>
+          <input type="submit" class="btn orange" value="Salvar">
+        </form>
+      </div>
+
+    </section>
+  </main>
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col col-offset-desktop-1 col-desktop-4">
+          <p><a href=""><img src="images/logo.png" alt="Logo da Chatschool"></a></p>
+          <p>What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        </div>
+        <div class="col col-offset-desktop-1 col-desktop-1">
+          <h3>Menu</h3>
+          <nav>
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="quemsomos.html">Quem somos</a></li>
+              <li><a href="clientes.html">Clientes</a></li>
+              <li><a href="equipe.html">Equipe</a></li>
+              <li><a href="contato.html"  id="active">Contato</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col col-desktop-3 social">
+          <a href="https://www.facebook.com.br"><img src="images/social-facebook.jpg" alt="logo do face"></a>
+          <a href="https://www.youtube.com"><img src="images/social-youtube.jpg" alt=""></a>
+          <a href="https:/twitter.com"><img src="images/social-twitter.jpg" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <div id="copyright">
+      &copy; Chatschool 2018 - All Rights Reserved
+    </div>
 </body>
 </html>
